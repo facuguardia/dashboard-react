@@ -10,7 +10,7 @@ function Sidebar() {
   return (
     <>
       <div
-        className={`bg-primary-900 h-full fixed lg:static w-[80%] md:w-[40%] lg:w-full transition-all duration-300 ${
+        className={`bg-primary-900 h-full fixed lg:static w-[80%] md:w-[40%] z-50 lg:w-full transition-all duration-300 ${
           menu ? "left-0" : "-left-full"
         }`}
       >
@@ -67,7 +67,7 @@ function Sidebar() {
       {/* Button Movile */}
       <button
         onClick={() => setMenu(!menu)}
-        className="lg:hidden fixed right-4 bottom-4 text-xl bg-primary-900 p-2.5 rounded-full text-white"
+        className="lg:hidden fixed right-4 bottom-4 text-xl bg-primary-900 p-2.5 rounded-full text-white z-50"
       >
         {menu ? <RiCloseFill /> : <RiMenu3Fill />}
       </button>
