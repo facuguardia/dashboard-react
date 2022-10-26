@@ -64,7 +64,7 @@ function Sidebar() {
           </div>
         </div>
       </div>
-      {/* Button Movile */}
+      {/* Button Mobile */}
       <button
         onClick={() => setMenu(!menu)}
         className="lg:hidden fixed right-4 bottom-4 text-xl bg-primary-900 p-2.5 rounded-full text-white z-50"
