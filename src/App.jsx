@@ -47,9 +47,48 @@ function App() {
                 </div>
               </div>
               <div className="flex items-center gap-4 p-3">
-                <button className="bg-primary-100/20 py-1 px-2 rounded-full hover:bg-primary-100/40">mobile app</button>
-                <button className="bg-primary-100/20 py-1 px-2 rounded-full hover:bg-primary-100/40">branding</button>
+                <button className="bg-primary-100/20 py-1 px-2 rounded-full hover:bg-primary-100/40">
+                  mobile app
+                </button>
+                <button className="bg-primary-100/20 py-1 px-2 rounded-full hover:bg-primary-100/40">
+                  branding
+                </button>
               </div>
+            </div>
+          </div>
+          {/* Card 3 */}
+          <div className="col-span-1 md:col-span-2">
+            <h1 className="text-2xl font-bold pb-4">Your Projects</h1>
+            <div className="flex items-center gap-6 p-8 bg-white rounded-lg shadow">
+              <div>
+                <img
+                  src="https://img.freepik.com/foto-gratis/alegre-mujer-mediana-edad-cabello-rizado_1262-20859.jpg"
+                  alt="profile of a woman"
+                  className="h-20 w-20 rounded-full object-cover ring-2"
+                />
+              </div>
+              <div>
+                <h3 className="font-bold text-xl">Logo design for Bakery</h3>
+                <p className="text-gray-700">1 day remaining</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-6 p-8 bg-white rounded-lg">
+              <div>
+                <img
+                  src="https://img.freepik.com/foto-gratis/alegre-mujer-mediana-edad-cabello-rizado_1262-20859.jpg"
+                  alt="profile of a woman"
+                  className="h-20 w-20 rounded-full object-cover ring-2"
+                />
+              </div>
+              <div>
+                <h3 className="font-bold text-xl">Logo design for Bakery</h3>
+                <p className="text-gray-700">1 day remaining</p>
+              </div>
+            </div>
+            <div className="bg-white rounded-br-xl rounded-bl-xl p-2 text-xl flex items-center justify-end hover:font-bold ">
+              <a href="#" >
+              See all projects
+              </a>
             </div>
           </div>
         </section>
