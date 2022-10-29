@@ -18,7 +18,6 @@ function Sidebar() {
         <div className="flex flex-col items-center justify-center p-8 gap-2 h-[30vh]">
           <img
             src="https://img.freepik.com/foto-gratis/chico-worldface-espanol-fondo-blanco_53876-137665.jpg"
-            alt="image profile"
             className="w-[130px] h-[130px] rounded-full object-cover ring-2 ring-gray-500"
           />
           <h1 className="text-white text-2xl font-bold pt-3">

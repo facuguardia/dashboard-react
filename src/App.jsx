@@ -64,8 +64,7 @@ function App() {
               <div>
                 <img
                   src="https://img.freepik.com/foto-gratis/alegre-mujer-mediana-edad-cabello-rizado_1262-20859.jpg"
-                  alt="profile of a woman"
-                  className="h-20 w-20 rounded-full object-cover ring-2"
+                  className="h-20 w-20 rounded-full object-cover"
                 />
               </div>
               <div>
@@ -76,9 +75,8 @@ function App() {
             <div className="flex items-center gap-4 p-4 bg-white rounded-lg">
               <div>
                 <img
-                  src="https://img.freepik.com/foto-gratis/alegre-mujer-mediana-edad-cabello-rizado_1262-20859.jpg"
-                  alt="profile of a woman"
-                  className="h-20 w-20 rounded-full object-cover ring-2"
+                  src="https://img.freepik.com/foto-gratis/retrato-joven-rubia-camiseta-blanca_273609-11508.jpg"
+                  className="h-20 w-20 rounded-full object-cover"
                 />
               </div>
               <div>
@@ -139,7 +137,7 @@ function App() {
               </div>
             </div>
             {/* Card 2 */}
-            <div className="bg-primary-900 text-gray-300 flex items-center justify-between mt-10 gap-6 p-8 rounded-xl shadow-2xl">
+            <div className="bg-primary-900 text-gray-300 flex items-center justify-between flex-wrap xl:flex-nowrap mt-10 gap-8 p-8 rounded-xl shadow-2xl">
               <div>
                 <FaSlackHash className="text-5xl" />
               </div>
@@ -147,10 +145,52 @@ function App() {
                 <h3 className="text-white font-bold">Engage with clients</h3>
                 <p className="text-gray-300">Join slack channel</p>
               </div>
-              <div>
-                <button className="text-white bg-primary-100  py-2 px-6 rounded-xl hover:border border-white">
+              <div className="w-[100vh] xl:w-auto">
+                <button className="w-full text-white bg-primary-100 py-2 px-6 rounded-xl hover:border border-white">
                   Join now
                 </button>
+              </div>
+            </div>
+          </div>
+          {/* Card 3 */}
+          <div>
+            <h1 className="text-2xl font-bold mb-8">Recommended project</h1>
+            <div className="bg-white p-11 rounded-xl shadow-2xl mb-8 ">
+              <div className="flex flex-col lg:flex-row xl:items-center justify-between gap-8 ">
+                <div className="flex items-center gap-4">
+                  <img
+                    src="https://img.freepik.com/foto-gratis/joven-sorprendido-camisa-negra-gafas-opticas-ve-aislado-pared-blanca_141793-35527.jpg"
+                    className="w-20 h-20 object-cover rounded-full"
+                  />
+                  <div>
+                    <h3 className="font-bold">Thomas Martin</h3>
+                    <p className="text-gray-500">Updated 10m ago</p>
+                  </div>
+                </div>
+                <div>
+                  <span className="py-2 px-4 rounded-full bg-primary-100 text-white font-bold">
+                    Design
+                  </span>
+                </div>
+              </div>
+              <div className="pt-6">
+                <h5 className="font-bold text-xl">
+                  Need a designer to form branding essentials for my business.
+                </h5>
+                <p className="text-gray-500 text-lg mb-8">
+                  Looking for a talented brand designer to create all the
+                  branding materials my new startup.
+                </p>
+                <div className="flex flex-col xl:flex-row items-center justify-between gap-4 py-8 px-4 bg-primary-100/10 rounded-xl">
+                  <div>
+                    <span className="text-gray-500 text-lg">€</span>{" "}
+                    <span className="text-2xl font-bold mr-2">8,700</span>{" "}
+                    <span className="text-gray-500 text-lg">/ month</span>
+                  </div>
+                  <span className="text-xl text-primary-100 border border-primary-100 py-1 px-3 rounded-full">
+                    Full time
+                  </span>
+                </div>
               </div>
             </div>
           </div>
